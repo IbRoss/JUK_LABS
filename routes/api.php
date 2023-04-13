@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DayController;
 use App\Http\Controllers\DisciplineController;
 use App\Http\Controllers\StreamController;
 use App\Http\Controllers\StudentController;
@@ -25,3 +26,5 @@ Route::get('/streams', [StreamController::class, 'index']);
 
 Route::get('/streams/{stream}/students', [StreamController::class, 'getStudentsByStream']);
 Route::get('/streams/{stream}/disciplins', [StreamController::class, 'getDisciplinsByStream']);
+
+Route::get('/days', [DayController::class, 'index']);

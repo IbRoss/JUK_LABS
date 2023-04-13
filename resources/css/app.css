@@ -1,11 +1,23 @@
 
-
-.box_selector{
-    width: 320px;
-    height: 320px;
+.body{
+    background: -webkit-linear-gradient(90deg, #f6f7f8,#e1e8f2,#d9e1ee);
+    background: linear-gradient(90deg, #f6f7f8,#e1e8f2,#d9e1ee);
 }
 
-.button_records{
-    width: 320px;
-    height: 320px;
+.header{
+    text-align: center;
+}
+
+.box_selector{
+    background-color: whitesmoke;
+    min-height: 50px;
+    min-width: 150px;
+    width: max-content;
+    height: max-content;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+#main{
+    display: inline-block;
 }
