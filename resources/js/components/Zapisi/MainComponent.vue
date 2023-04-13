@@ -1,5 +1,5 @@
 <template>
-    
+<div class="box_selector">  
 <select v-model="currentStream" @change="changeCurrentStream()">
     <template v-for="stream in streams">
         <option :value="stream.id">
@@ -7,8 +7,8 @@
         </option>
     </template>
 </select>
- 
-<br>
+</div>   
+
 
 <!-- зависит от группы currentStream -->
 <select v-model="currentStudent">
